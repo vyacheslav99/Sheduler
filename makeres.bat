@@ -1,0 +1,1 @@
+"c:\Program Files\CodeGear\RAD Studio\5.0\Bin\brcc32" /r %1
