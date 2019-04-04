@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, utils, tasks, ExtCtrls, StdCtrls,
   ComCtrls, XpMan, Buttons, ShellAPI, MemTableDataEh, Db, MemTableEh, DBGridEhGrouping, GridsEh, DBGridEh, EhLibMTE, IniFiles,
-  Spin, DateUtils;
+  Spin, DateUtils, ToolCtrlsEh, DBGridEhToolCtrls, DynVarsEh, EhLibVCL, DBAxisGridsEh;
 
 type
   TFCtrlWnd = class(TForm)

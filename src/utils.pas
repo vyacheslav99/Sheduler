@@ -273,11 +273,11 @@ begin
 
   with noIconData do
   begin
-    cbSize := SizeOf(TNotifyIconData);
+    cbSize := TNotifyIconData.SizeOf;
     wnd := FHandle;
     uID := 0;
     uFlags := NIF_MESSAGE or NIF_ICON or NIF_TIP;
-    FillChar(szTip, SizeOf(szTip), #0);
+    FillChar(szTip, Length(szTip), #0);
     Move(AppTitle[1], szTip, Length(AppTitle));
     //szTip := AppTitle;
     hIcon := HIcon1;

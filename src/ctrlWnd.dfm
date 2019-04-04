@@ -223,11 +223,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 0
-          OnClick = btnStartClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000473B5800473B
@@ -263,6 +258,11 @@ object FCtrlWnd: TFCtrlWnd
             5800473B5800473B5800473B5800473B5800473B5800473B5800473B5800473B
             5800473B5800473B5800473B5800473B5800473B5800473B5800473B5800473B
             5800473B5800473B5800473B5800473B5800473B5800473B5800}
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 0
+          OnClick = btnStartClick
         end
         object btnStop: TBitBtn
           Left = 128
@@ -279,11 +279,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 1
-          OnClick = btnStopClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000000000000000
@@ -319,6 +314,11 @@ object FCtrlWnd: TFCtrlWnd
             90FF1E9390FF1E9390FF1E9390FF000000000000000000000000000000000000
             0000000000000000000000000000000000000000000000000000000000000000
             0000000000000000000000000000000000000000000000000000}
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 1
+          OnClick = btnStopClick
         end
         object btnOpenLog: TBitBtn
           Left = 12
@@ -331,9 +331,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          TabOrder = 2
-          OnClick = btnOpenLogClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000000000000000
@@ -369,6 +366,9 @@ object FCtrlWnd: TFCtrlWnd
             0000CECECEFFDEDEDEFF00000000000000000000000000000000000000000000
             000000000000000000009C8C8CFF636363FF000000009C8C8CFF636363FF0000
             00009C8C8CFF636363FF00000000000000000000000000000000}
+          ParentFont = False
+          TabOrder = 2
+          OnClick = btnOpenLogClick
         end
         object btnDeleteLog: TBitBtn
           Left = 128
@@ -381,9 +381,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          TabOrder = 3
-          OnClick = btnDeleteLogClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000000000000000
@@ -419,6 +416,9 @@ object FCtrlWnd: TFCtrlWnd
             0000CECECEFFDEDEDEFF00000000000000000000000000000000000000000000
             000000000000000000009C8C8CFF636363FF000000009C8C8CFF636363FF0000
             00009C8C8CFF636363FF00000000000000000000000000000000}
+          ParentFont = False
+          TabOrder = 3
+          OnClick = btnDeleteLogClick
         end
         object btnBreakAll: TBitBtn
           Left = 253
@@ -434,11 +434,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 4
-          OnClick = btnBreakAllClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000FF00FF00FF00
@@ -474,6 +469,11 @@ object FCtrlWnd: TFCtrlWnd
             FF002139FF00314AFF001831FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
             FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00
             FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00FF00}
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 4
+          OnClick = btnBreakAllClick
         end
         object btnOpenConfig: TBitBtn
           Left = 418
@@ -488,11 +488,6 @@ object FCtrlWnd: TFCtrlWnd
           Font.Height = -11
           Font.Name = 'Tahoma'
           Font.Style = []
-          ParentFont = False
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 5
-          OnClick = btnOpenConfigClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000473B5800473B
@@ -528,6 +523,11 @@ object FCtrlWnd: TFCtrlWnd
             5800473B5800473B5800473B5800473B5800473B5800473B5800473B5800473B
             5800473B5800473B5800473B5800473B5800473B5800473B5800473B5800473B
             5800473B5800473B5800473B5800473B5800473B5800473B5800}
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 5
+          OnClick = btnOpenConfigClick
         end
         object btnReloadParams: TButton
           Left = 418
@@ -590,10 +590,6 @@ object FCtrlWnd: TFCtrlWnd
           Hint = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080
           Anchors = [akRight, akBottom]
           Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080
-          ParentShowHint = False
-          ShowHint = True
-          TabOrder = 2
-          OnClick = btnSaveParamsClick
           Glyph.Data = {
             36040000424D3604000000000000360000002800000010000000100000000100
             2000000000000004000000000000000000000000000000000000000000000000
@@ -629,6 +625,10 @@ object FCtrlWnd: TFCtrlWnd
             0000000000000000000000000000000000000000000000000000000000000000
             0000000000000000000000000000000000000000000000000000000000000000
             0000000000000000000000000000000000000000000000000000}
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 2
+          OnClick = btnSaveParamsClick
         end
         object edMaxThreadCount: TSpinEdit
           Left = 323
@@ -844,31 +844,21 @@ object FCtrlWnd: TFCtrlWnd
         Anchors = [akLeft, akTop, akRight, akBottom]
         AutoFitColWidths = True
         ColumnDefValues.Title.TitleButton = True
-        DataGrouping.GroupLevels = <>
         DataSource = dsoTask
-        Flat = False
-        FooterColor = clWindow
-        FooterFont.Charset = DEFAULT_CHARSET
-        FooterFont.Color = clWindowText
-        FooterFont.Height = -11
-        FooterFont.Name = 'Tahoma'
-        FooterFont.Style = []
-        IndicatorOptions = [gioShowRowIndicatorEh]
+        DynProps = <>
+        FooterParams.Color = clWindow
         OptionsEh = [dghFixed3D, dghHighlightFocus, dghClearSelection, dghAutoSortMarking, dghMultiSortMarking, dghRowHighlight, dghDblClickOptimizeColWidth, dghDialogFind, dghColumnResize, dghColumnMove, dghExtendVertLines]
         ParentShowHint = False
         ShowHint = True
         SortLocal = True
         TabOrder = 0
-        TitleFont.Charset = DEFAULT_CHARSET
-        TitleFont.Color = clWindowText
-        TitleFont.Height = -11
-        TitleFont.Name = 'Tahoma'
-        TitleFont.Style = []
         OnGetCellParams = dbgTaskGetCellParams
         OnKeyUp = dbgTaskKeyUp
         Columns = <
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'TaskId'
             Footers = <>
@@ -878,6 +868,8 @@ object FCtrlWnd: TFCtrlWnd
             Width = 30
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Active'
             Footers = <>
@@ -886,6 +878,8 @@ object FCtrlWnd: TFCtrlWnd
             Width = 20
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'TaskName'
             Footers = <>
@@ -895,6 +889,11 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             ButtonStyle = cbsEllipsis
+            CellButtons = <>
+            DynProps = <>
+            EditButton.Style = ebsEllipsisEh
+            EditButton.Visible = True
+            EditButton.OnClick = dbgTaskColumns2EditButtonClick
             EditButtons = <>
             FieldName = 'ExecCommand'
             Footers = <>
@@ -904,6 +903,8 @@ object FCtrlWnd: TFCtrlWnd
             OnEditButtonClick = dbgTaskColumns2EditButtonClick
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Parametres'
             Footers = <>
@@ -915,6 +916,11 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             ButtonStyle = cbsEllipsis
+            CellButtons = <>
+            DynProps = <>
+            EditButton.Style = ebsEllipsisEh
+            EditButton.Visible = True
+            EditButton.OnClick = dbgTaskColumns4EditButtonClick
             EditButtons = <>
             FieldName = 'WorkDir'
             Footers = <>
@@ -926,6 +932,8 @@ object FCtrlWnd: TFCtrlWnd
           item
             Alignment = taLeftJustify
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'ShowWindow'
             Footers = <>
@@ -949,6 +957,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Minute'
             Footers = <>
@@ -958,6 +968,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Hour'
             Footers = <>
@@ -967,6 +979,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Day'
             Footers = <>
@@ -976,6 +990,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Month'
             Footers = <>
@@ -985,6 +1001,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Weekday'
             Footers = <>
@@ -994,6 +1012,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'AllowMultiple'
             Footers = <>
@@ -1005,6 +1025,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'WaitProcess'
             Footers = <>
@@ -1022,10 +1044,6 @@ object FCtrlWnd: TFCtrlWnd
         Height = 22
         Hint = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1079#1072#1076#1072#1095#1080
         Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1079#1072#1076#1072#1095#1080
-        ParentShowHint = False
-        ShowHint = True
-        TabOrder = 1
-        OnClick = btnSaveTaskClick
         Glyph.Data = {
           36040000424D3604000000000000360000002800000010000000100000000100
           2000000000000004000000000000000000000000000000000000000000000000
@@ -1061,6 +1079,10 @@ object FCtrlWnd: TFCtrlWnd
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000}
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+        OnClick = btnSaveTaskClick
       end
       object GroupBox3: TGroupBox
         Left = 3
@@ -1280,36 +1302,28 @@ object FCtrlWnd: TFCtrlWnd
         Anchors = [akLeft, akTop, akRight, akBottom]
         AutoFitColWidths = True
         ColumnDefValues.Title.TitleButton = True
-        DataGrouping.GroupLevels = <>
         DataSource = dsoThread
-        Flat = False
-        FooterColor = clWindow
-        FooterFont.Charset = DEFAULT_CHARSET
-        FooterFont.Color = clWindowText
-        FooterFont.Height = -11
-        FooterFont.Name = 'Tahoma'
-        FooterFont.Style = []
-        IndicatorOptions = [gioShowRowIndicatorEh]
+        DynProps = <>
+        FooterParams.Color = clWindow
         OptionsEh = [dghFixed3D, dghHighlightFocus, dghClearSelection, dghAutoSortMarking, dghMultiSortMarking, dghRowHighlight, dghDblClickOptimizeColWidth, dghDialogFind, dghColumnResize, dghColumnMove, dghExtendVertLines]
         ParentShowHint = False
         ShowHint = True
         SortLocal = True
         TabOrder = 0
-        TitleFont.Charset = DEFAULT_CHARSET
-        TitleFont.Color = clWindowText
-        TitleFont.Height = -11
-        TitleFont.Name = 'Tahoma'
-        TitleFont.Style = []
         OnGetCellParams = dbgThreadGetCellParams
         Columns = <
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'ProcessId'
             Footers = <>
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Terminated'
             Footers = <>
@@ -1319,7 +1333,9 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
             DisplayFormat = 'DD.MM.YYYY HH:mm:ss'
+            DynProps = <>
             EditButtons = <>
             FieldName = 'StartTime'
             Footers = <>
@@ -1328,7 +1344,9 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
             DisplayFormat = 'DD.MM.YYYY HH:mm:ss'
+            DynProps = <>
             EditButtons = <>
             FieldName = 'StopTime'
             Footers = <>
@@ -1337,6 +1355,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'TaskId'
             Footers = <>
@@ -1345,6 +1365,8 @@ object FCtrlWnd: TFCtrlWnd
             Width = 30
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'TaskName'
             Footers = <>
@@ -1352,6 +1374,8 @@ object FCtrlWnd: TFCtrlWnd
             Width = 200
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'ExecCommand'
             Footers = <>
@@ -1359,6 +1383,8 @@ object FCtrlWnd: TFCtrlWnd
             Width = 180
           end
           item
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'Parametres'
             Footers = <>
@@ -1367,6 +1393,8 @@ object FCtrlWnd: TFCtrlWnd
           end
           item
             AutoFitColWidth = False
+            CellButtons = <>
+            DynProps = <>
             EditButtons = <>
             FieldName = 'LastError'
             Footers = <>
